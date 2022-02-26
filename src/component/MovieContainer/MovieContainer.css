@@ -1,0 +1,38 @@
+.movie-intro{
+    margin-left: 30px;
+}
+
+.movie-topics{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: fit-content;
+    color: var(--text-color);
+    font-size: 22px;
+    margin-bottom: 31px;
+    border-left: 4px solid var(--main-color)
+}
+
+.movie-info{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.movie-info img{
+    cursor: pointer;
+    /* transition: 0.3s ease-in-out; */
+}
+
+.movie-container-detail{
+    padding: 25px;
+}
+
+
+.movie-details{
+    display: flex;
+}
+
+.movie-details p{
+    padding: 10px;
+}

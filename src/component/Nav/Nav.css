@@ -1,0 +1,30 @@
+
+    .logo{
+    display: flex;
+    align-items: center;
+    color:var(--main-color);
+    font-size: 27px;
+    cursor: pointer;
+    padding-left: 100px;
+    }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--box-bg);
+    color: var(--text-color);
+    height: 60px;
+}
+
+.nav-items{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 40%;
+    cursor: pointer;
+
+}
+.nav-item{
+    padding: 4rem;
+}

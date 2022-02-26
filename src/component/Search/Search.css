@@ -1,0 +1,32 @@
+
+
+section{
+    padding: 50px;
+    display: flex;
+    justify-content:center;
+
+}
+
+input{
+    width: 24%;
+    outline: none; 
+    border: none;
+    /* color:var(--text-color); */
+    /* background-color: rgba(0, 0, 0, 0.03); */
+}
+input::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.inptext{
+    padding: 15px;
+}
+.search-btn{
+    padding: 15px;  
+    border: none;
+    cursor: pointer;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
+}
